@@ -5,6 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Computer Basics - Interactive Learning</title>
     <style>
+        /* تغيير لون الزر "Check Answers" */
+    #check-answers {
+      background-color: #640902; /* لون الخلفية */
+      color: rgb(255, 255, 255); /* لون النص */
+    }
+
+    /* تغيير لون الزر "Reset Quiz" */
+    button[type="reset"] {
+      background-color: #640902; /* لون الخلفية */
+      color: rgb(255, 255, 255); /* لون النص */
+    }
         :root {
             --primary: #0056b3;     /* Dark blue (7:1 contrast) */
             --secondary: #333333;   /* Dark gray (15:1 contrast) */
@@ -32,14 +43,14 @@
             align-items: center;
             justify-content: center;
             padding: 1rem;
-            background: white;
+            background: rgb(20, 20, 20);
             border-bottom: 2px solid var(--primary);
         }
         
         .university-logo {
             height: 250px;
-            width: auto;
-            margin-right: 1rem;
+    width: auto; /* ستتكيف الصورة مع العرض بشكل تلقائي */
+    margin-right: 1rem;
         }
         
         .skip-link {
@@ -47,7 +58,7 @@
             top: -40px;
             left: 0;
             background: var(--accent);
-            color: white;
+            color: rgb(14, 46, 228);
             padding: 8px;
             z-index: 100;
         }
@@ -238,7 +249,7 @@
         }
         
         button:hover, button:focus {
-            background: #c0392b;
+            background: #d10d0d;
             outline: 2px solid var(--secondary);
         }
         
@@ -310,7 +321,8 @@
     
     <header>
         <h1> Assistive Learning Technologies </h1>
-        <h2>Computer Basics Learning </h2>
+        <h1>  </h1>
+        <h1>Computer Basics Learning </h1>
     </header>
     
     <nav aria-label="Main navigation">
